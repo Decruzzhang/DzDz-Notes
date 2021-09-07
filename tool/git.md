@@ -14,6 +14,8 @@ git push origin master
 #将文件给推到服务器上
 git remote show origin
 #显示远程库origin里的资源
+eg:git push origin  zxh_creat_dir:master
+
 git push origin master:develop
 git push origin master:hb-dev
 #将本地库与服务器上的库进行关联
